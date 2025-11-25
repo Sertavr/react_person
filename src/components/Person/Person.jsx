@@ -1,5 +1,6 @@
 export const Person = ({ person }) => {
   const { name, age, sex, isMarried, partnerName } = person;
+  // prettier-ignore
   const partnerRole = sex === 'f'
     ? 'husband'
     : 'wife';
